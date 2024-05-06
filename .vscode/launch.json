@@ -1,0 +1,73 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "Totvs 12.1.27",
+			"program": "${command:AskForProgramName}",
+			"smartclientBin": "C:/TOTVS 12/Protheus/bin/Smartclient_SUP_TST_12_1_27/smartclient.exe",
+			"cwb": "${workspaceFolder}",
+			"isMultiSession": true,
+			"enableTableSync": true
+		},
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "Depuração do idioma TOTVS",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:\\TOTVS 12\\Protheus\\bin\\SmartClient_12_1_17\\smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true
+		}
+	],
+	"lastPrograms": [
+		{
+			"args": [],
+			"label": "U_HBARE040",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_HBARE250",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "mpsdu",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_HBARE124",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_HBARE042",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "SIGAFIN",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_HBARE200",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "SIGACFG",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_HBARE080",
+			"description": ""
+		}
+	],
+	"lastProgramExecuted": "U_HBARE080"
+}
